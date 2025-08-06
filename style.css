@@ -15,7 +15,7 @@
       font-family: 'Inter', sans-serif;
       background-color: var(--black);
       color: white;
-      overflow-x: hidden;
+      
     }
 
     .loading-screen {
@@ -63,6 +63,7 @@
       opacity: 0;
       transform: translateY(20px);
       transition: opacity 0.8s ease, transform 0.8s ease;
+      margin-top: 80px;
     }
 
     .main-content.visible {
@@ -258,7 +259,7 @@
     #gallery {
       background-color: rgba(10, 10, 10, 0.3);
       padding: 120px 0;
-      overflow: hidden;
+      
     }
 
     .gallery-container {
@@ -301,7 +302,7 @@
       height: 100vh;
       display: flex;
       align-items: center;
-      overflow: hidden;
+      
     }
 
     .filmstrip-container {
@@ -514,19 +515,19 @@
       .gallery-sticky {
         position: relative;
         height: auto;
-        overflow: visible;
+        
       }
 
       .filmstrip-container {
         flex-direction: column;
         width: 100%;
         transform: none;
-        overflow-x: auto;
+
         padding-bottom: 20px;
       }
 
       .filmstrip-row {
-        overflow-x: auto;
+        
         padding-bottom: 10px;
         margin-bottom: 20px;
       }
